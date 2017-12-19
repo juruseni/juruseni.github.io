@@ -1,8 +1,6 @@
-# Site settings
-title: Juruseni - Online Marketplace
-description: Marketplace untuk seniman
-url: http://juruseni.github.io
-baseurl: ''
+highlighter: rouge
+github: [Repository metadata]
 
-gems: ['jekyll-redirect-from']
+gems: 
+  - jekyll-redirect-from
 exclude: ['README.md', 'Gemfile']
