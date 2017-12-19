@@ -1,6 +1,14 @@
 highlighter: rouge
 github: [Repository metadata]
 
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+        
 gems: 
   - jekyll-redirect-from
 exclude: ['README.md', 'Gemfile']
